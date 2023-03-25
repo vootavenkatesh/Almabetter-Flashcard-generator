@@ -1,70 +1,70 @@
-# AlmaBetter-Flashcard-Generator
+#                             AlmaBetter-Flashcard-Generator
 
 This is a frontend capstone project given by Almabetter which is flashcard generator
 
-## Available Scripts
+## Deployment
 
-In the project directory, you can run:
+use the given link https://flashcard-generator-venkatesh.netlify.app/ to see my flashcard generator website.
 
-### `npm start`
+## Watch Explanation video on youtube 
+- [video link](https://www.youtube.com/watch?v=beuvZFWs68c)
 
-Runs the app in the development mode.\
-Open (https://almabetterflashcardgenerator.netlify.app/) to view it in your browser.
+### Run Locally
+Clone the project
+```bash
+ git clone https://github.com/vootavenkatesh/Almabetter-flashcard-generator.git
+```
+Go to the project directory
+```bash
+ cd Almabetter-flashcard-generator
+```
+Install dependencies
+```bash
+npm install
+```
+Start the server
+```bash
+npm start
+```
+## Author
+-[@venkatesh](https://github.com/vootavenkatesh)
+## Tech Stack
+- Reactjs( React Router ),
+- Redux & Redux Toolkit,
+- TailwindCSS,
+- React-icons,
+- React Formik & Yup,
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project (Flashcard )
+This project is created with mainly Reactjs , In this project mainly we have three pages
+```bash
+1) create Flashcard page 
+2) My Flashcard page 
+3) Flashcad Details page with share page 
+```
+- create flashcard page: In create Flashcard page we used a Formik for creating input boxes and for the validation we used Yup
 
-### `npm test`
+- My Flashcard page: For the My flashcard page we saparately design My Flashcard UI component and did maping the UI and input data in My flashcard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- FlashcardDetails page : in the page we write a code for displaying Number of cards and details of cards and in the page we also created share popup slide with all social media Links
 
-### `npm run build`
+## How To Use
+1) Open flashcard generator will clicking deployment Link: https://flashcard-generator-venkatesh.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2) Click on the "create New" link and fill up all the input boxes without any Errors and click on "create" button
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3) For the viewing Currently created flashcard click on "My flashcard" link this will show all flashcard you created recently
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4) For the Viewing Details of flashcard click on "view card" button shows on the flashcard this will show the details of flashcard and number of cards with  description and also we have "share" button to copy link with all social media icons(Links) working
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Add More Input Box 
+- Delete Input Box
+- Edit Input box
+- Upload Image
+- View cards
+- Share
+- ## 🛠 Skills
+Javascript, HTML, CSS, Reactjs...
